@@ -55,7 +55,7 @@
     "@ant-design/pro-layout": "^5.0.0",
     "@antv/data-set": "^0.10.1",
     "antd": "^4.2.5",
-    "bizcharts": "3.5.2-beta.1",
+    "bizcharts": "3.5.10",
     "bizcharts-plugin-slider": "^2.1.1-beta.1",
     "cello-paginator": "^1.0.1",
     "classnames": "^2.2.6",
