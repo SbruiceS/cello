@@ -3,7 +3,7 @@ FROM busybox as downloader
 RUN cd /tmp && wget -c https://github.com/hyperledger/cello/archive/master.zip && \
     unzip master.zip
 
-FROM python:3.14.0a1
+FROM python:3.14.0a3
 
 LABEL maintainer="github.com/hyperledger/cello"
 
