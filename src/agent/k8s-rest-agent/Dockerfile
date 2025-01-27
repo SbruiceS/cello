@@ -1,4 +1,4 @@
-FROM python:3.8
+FROM python:3.14.0a4
 
 COPY requirements.txt /
 COPY pip /root/.pip
