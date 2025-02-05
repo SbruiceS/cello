@@ -84,7 +84,7 @@
     "react-redux": "^7.2.2",
     "redux": "^4.0.5",
     "resize-observer-polyfill": "^1.5.1",
-    "umi": "^3.1.4",
+    "umi": "^4.0.0",
     "umi-request": "^1.2.19",
     "validator": "^13.7.0"
   },
