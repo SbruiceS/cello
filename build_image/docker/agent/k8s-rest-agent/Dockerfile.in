@@ -1,4 +1,4 @@
-FROM python:3.8
+FROM python:3.12.10
 
 COPY src/agent/k8s-rest-agent/requirements.txt /
 COPY src/agent/k8s-rest-agent/pip /root/.pip
