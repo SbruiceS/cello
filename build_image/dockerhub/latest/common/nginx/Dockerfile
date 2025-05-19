@@ -3,7 +3,7 @@ FROM busybox as downloader
 RUN cd /tmp && wget -c https://github.com/hyperledger/cello/archive/master.zip && \
     unzip master.zip
 
-FROM nginx:1.15.7
+FROM nginx:1.28.0
 
 RUN apt-get update && apt-get install -y wget && \
 	apt-get autoclean && apt-get clean && apt-get autoremove && rm -rf /var/cache/apt/
