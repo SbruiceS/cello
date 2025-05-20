@@ -17,7 +17,7 @@
 # Workdir is set to $GOPATH/src/github.com/hyperledger/fabric
 # Data is stored under /var/hyperledger/production
 
-FROM golang:1.23.4
+FROM golang:1.24.3
 LABEL version=2.2.0
 
 # Orderer, peer, ca, operation api
