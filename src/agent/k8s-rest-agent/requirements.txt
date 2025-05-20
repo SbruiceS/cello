@@ -16,3 +16,4 @@ django-3-jet
 djangorestframework-jwt<=1.11.0
 python-jwt # 需要安装，否则会出现token解码失败错误
 shortuuid
+setuptools>=78.1.1 # not directly required, pinned by Snyk to avoid a vulnerability
