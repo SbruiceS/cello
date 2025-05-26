@@ -6,7 +6,7 @@ holdup>1.5.0,<=1.6.0
 drf-yasg<=1.17.0
 swagger_spec_validator<=2.4.1
 psycopg2-binary
-celery<5.0,>=4.4
+celery>=4.4,<6.0
 redis
 requests
 supervisor
