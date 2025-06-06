@@ -1,4 +1,4 @@
-Django>=3.0
+Django>=4.2.22
 uwsgi
 enum34
 djangorestframework
