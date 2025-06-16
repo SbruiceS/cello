@@ -1,3 +1,4 @@
 mkdocs>= 1.4.2
 mkdocs-material>=4.4.0
 pygments>=2.14.0
+requests>=2.32.4 # not directly required, pinned by Snyk to avoid a vulnerability
