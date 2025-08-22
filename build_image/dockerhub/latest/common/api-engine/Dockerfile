@@ -1,4 +1,4 @@
-FROM python:3.14.0a1
+FROM python:3.14.0rc2
 
 # Install software
 RUN apt-get update \
