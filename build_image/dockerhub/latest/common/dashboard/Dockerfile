@@ -13,7 +13,7 @@ RUN mkdir -p /usr/src/app && cd /usr/src/app
 COPY --from=downloader /tmp/cello-master/src/dashboard /usr/src/app
 RUN yarn --network-timeout 600000 && yarn run build
 
-FROM nginx:1.15.12
+FROM nginx:1.27.4
 
 COPY --from=builder /usr/src/app/dist /usr/share/nginx/html
 COPY --from=downloader /tmp/cello-master/build_image/docker/common/dashboard/config-nginx.sh /
