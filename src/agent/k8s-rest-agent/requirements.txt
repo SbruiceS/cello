@@ -1,4 +1,4 @@
-Django>=3.0
+Django>=4.2.27
 uwsgi
 enum34
 djangorestframework
@@ -16,3 +16,4 @@ django-3-jet
 djangorestframework-jwt<=1.11.0
 python-jwt # 需要安装，否则会出现token解码失败错误
 shortuuid
+sqlparse>=0.5.4 # not directly required, pinned by Snyk to avoid a vulnerability
